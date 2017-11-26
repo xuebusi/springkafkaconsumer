@@ -3,7 +3,5 @@ server:
 spring:
   kafka:
     consumer:
-      enable-auto-commit: true
       group-id: applog
-      auto-offset-reset: latest
       bootstrap-servers: 192.168.71.11:9092,192.168.71.12:9092,192.168.71.13:9092
